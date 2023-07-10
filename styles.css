@@ -167,10 +167,44 @@ button.signup-one{
 }
 
 
-.cta-container{}
+.cta-container{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 100px 200px;
+}
+
+.cta{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #3882f6;
+    padding: 20px;
+    border-radius: 16px;
+    height: 150px;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    margin-left:100px;
+    flex: 1;
+    color:#f9faf8;
+    justify-content: center;
+    gap: 10px;
+}
+.cta-text h2,p{
+    margin: 0;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
 
 button.signup-two{
-    padding: 8px 20px;
+    padding: 12px 24px;
     background-color: #3882f6;
     color: white;
     font-weight: bold;
@@ -179,4 +213,9 @@ button.signup-two{
 }
 footer{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100px;
+    color: #E5E7EB;
 }
