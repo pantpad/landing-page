@@ -110,7 +110,7 @@ button.signup-one{
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    flex:1;
+    flex:0 1 200px;
 }
 
 .card{
