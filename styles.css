@@ -101,7 +101,7 @@ button.signup-one{
     flex-flow: row wrap;
     justify-content: center;
     padding: 50px;
-    gap:8px;
+    gap:20px;
 }
 
 .card-box{
@@ -110,7 +110,7 @@ button.signup-one{
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    flex:0 1 200px;
+    flex:0 1 100px;
 }
 
 .card{
@@ -124,7 +124,7 @@ button.signup-one{
 }
 
 .card-text{
-    max-width: 150px;
+    max-width: 100px;
     word-wrap: break-word;
 }
 
