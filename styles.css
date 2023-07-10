@@ -55,11 +55,14 @@ header a{
 }
 
 .title{
-    font-size: 42px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
 .text{
     font-weight: lighter;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .image-placeholder{
@@ -114,8 +117,8 @@ button.signup-one{
 }
 
 .card{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border:2px solid #3882f6;
     border-radius: 16px;
     display: flex;
@@ -124,11 +127,46 @@ button.signup-one{
 }
 
 .card-text{
-    max-width: 100px;
+    max-width: 150px;
     word-wrap: break-word;
 }
 
-.quote-container{}
+.quote-container{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 20px 200px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #E5E7EB;
+    min-width: 500px;
+    max-width: 1000px;
+    padding:20px;
+}
+
+.quote-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    font-weight: 900;
+}
+
+
 .cta-container{}
 
 button.signup-two{
